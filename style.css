@@ -11,13 +11,18 @@ box-sizing: border-box;
 
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(160deg, #cf9aff, #95c0ff);
-    color: antiquewhite;
+    background: linear-gradient(130deg, black, white);
+    color: white;
     padding-top: 4%;
     padding-left: 10%;
-
-
+    
 }
+
+h1{
+
+    margin: 10px;
+}
+
 
 .container h1{
 
@@ -30,8 +35,8 @@ box-sizing: border-box;
 .create-note{
     display: flex;
     align-items: center;
-    background: linear-gradient(blue, #571094);
     color: whitesmoke;
+    background-color: gray;
     font-size: 16px;
     outline: 0;
     border: 0;
@@ -39,6 +44,11 @@ box-sizing: border-box;
     padding: 15px 25px;
     margin: 30px, 0, 20px;
     cursor: pointer;
+}
+
+.create-note:hover{
+
+    background-color: blue;
 }
 
 .input-box {
