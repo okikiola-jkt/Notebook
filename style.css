@@ -39,7 +39,7 @@ box-sizing: border-box;
     cursor: pointer;
 }
 
-.notes {
+.input-box {
 
     position: relative;
     width: 100%;
@@ -53,7 +53,7 @@ box-sizing: border-box;
     border-radius: 10px;
 }
 
-.notes img {
+.notes-container img {
     
     position: absolute;
     right: 15px;
